@@ -7,7 +7,6 @@
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2045-2627PA1)
 * Due: 
   * Programming Due: 23:59pm 28/11/2026 (Saturday midnight)
-* Download the starter code: [Sokoban](Sokoban.java) 
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2045-2627PA1/archive/refs/heads/master.zip)
 
