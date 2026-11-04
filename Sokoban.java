@@ -97,6 +97,7 @@ public class Sokoban {
                 return;
             if (input == 'r' || input == 'R') {
                 board.restore();
+                board.printMap();
                 continue;
             }
             if (input == 'h' || input == 'H') {
