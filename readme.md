@@ -81,5 +81,9 @@ For the correctness of your program, we will test your program with a set of tes
 ## Interview 
 Should the teaching team see fit, students may be requested to attend an interview to explain about their program.  Students failing to attend such interview or to demonstrate a good understanding of their own program may result in mark deduction. 
 
+# Known Issues
 
+> It is known that if a player is on a goal and saves the game. The goal may disappear when the game is loaded. This is a known issue and we will not penalize you for this. You can try to fix it if you want to, but it is not required.
+> 
+> This issue appears in the sample program as well.
 
