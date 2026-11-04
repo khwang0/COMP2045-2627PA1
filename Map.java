@@ -27,7 +27,8 @@ public class Map {
 
 
     /**
-     * Returns the cells of the map. 
+     * Returns the cells array used by this map.
+     * Changes made to the returned array directly change the map.
      * @return the 2D array of characters representing the map
      */
     public char[][] getCells() {
@@ -63,10 +64,12 @@ public class Map {
      * stated in the argument. If the file is not found, it should throw 
      * an IOException.
      * 
-     * The number of columns in each row may be different. You should use
-     * the minimum number of columns in the file to declare the number of 
-     * columns in your array. The last column of each row must be a WALL 
-     * character.
+     * The number of columns in each row may be different. Use an irregular
+     * 2D array (char[][]): allocate the outer array using the number of lines
+     * in the file, then allocate each row separately using that line's
+     * length after removing trailing space characters (' ') if there is any. 
+     * Preserve leading spaces. Do not truncate or pad rows to a common width.
+     * The last column of each row must be a WALL character.
      * 
      * That is, if the map is as follow,
      * ####

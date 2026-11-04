@@ -128,8 +128,6 @@ public class Sokoban {
     /**
      * Print the Help menu. 
      * 
-     * Inspect the code in runApp() and find out the function of each characters. 
-     * The first one has been done for you.
      */
     public void printHelp() {
         System.out.println("Sokoban Help:"); 

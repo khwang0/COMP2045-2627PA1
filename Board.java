@@ -117,6 +117,8 @@ public class Board {
     public void makeMove(char direction) {
         //TODO
     }
+
+
     /**
      * To move a box in a map.
      * 
@@ -124,7 +126,7 @@ public class Board {
      * This method will move a box in the map. The box will be moved to 
      * the direction specified by the parameter "direction".
      * 
-     * You must call this method somewhere in movePlayer() method.
+     * You must call this method from makeMove() when the player pushes a box.
      * 
      * After this method, a box should be moved to the new position 
      * from the coordinate [row, col] according to the direction.
@@ -150,6 +152,9 @@ public class Board {
      * by the constant SAVE_FILE.
      * 
      * The new file shall contain also the current position of the player.
+     * 
+     * It is a known problem that if a player is on a goal, the goal will 
+     * not be saved in the file. You don't need to worry about this problem.
      */
     public void saveMap() {
         //TODO
